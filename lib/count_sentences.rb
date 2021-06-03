@@ -18,6 +18,5 @@ class String
     split_sentence = self.split(/[!?.]+(?=$|\s)/)
     count = split_sentence.count
     count
-    binding.pry
   end
 end
